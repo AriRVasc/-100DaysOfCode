@@ -55,6 +55,6 @@ def client_code(logistics: Logistics):
         f"{logistics.planDelivery()}")
 
 if __name__ == "__main__":
-  client_code(RoadLogistics("Caminhao1"))
+  client_code(RoadLogistics("Caminhao"))
   print("\n")
-  client_code(SeaLogistics("Navio1"))
+  client_code(SeaLogistics("Navio"))
